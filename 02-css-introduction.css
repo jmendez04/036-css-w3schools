@@ -1,0 +1,46 @@
+body {
+    background-color: lightblue;
+    font-family: Arial, sans-serif;
+    margin: 40px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contenedor {
+    background-color: white;
+    width: 75%;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: steelblue;
+}
+
+ul {
+    line-height: 1.8;
+}
+
+.codigo {
+    width: 75%;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-left: 5px solid steelblue;
+    border-radius: 8px;
+}
+
+pre {
+    font-family: Consolas, monospace;
+    font-size: 15px;
+}
