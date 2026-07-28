@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue;
+}
+
+p {
+    color: red;
+    text-align: center;
+    font-size: 20px;
+}
+
+.explicacion {
+    width: 75%;
+    margin: 30px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    color: steelblue;
+}
+
+pre {
+    background-color: #eeeeee;
+    padding: 15px;
+    border-left: 5px solid steelblue;
+    font-family: Consolas, monospace;
+}
+
+ul {
+    line-height: 1.8;
+}
