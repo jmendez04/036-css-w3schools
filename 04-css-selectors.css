@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 40px;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue;
+}
+
+h2 {
+    color: #444;
+    margin-top: 35px;
+}
+
+/* Selector de elemento */
+p {
+    color: red;
+    text-align: center;
+}
+
+/* Selector por ID */
+#importante {
+    background-color: gold;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Selector por clase */
+.center {
+    background-color: lightblue;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+/* Selector de elemento con clase */
+p.center {
+    border: 2px solid steelblue;
+}
+
+/* Segunda clase */
+.grande {
+    font-size: 24px;
+    font-weight: bold;
+}
