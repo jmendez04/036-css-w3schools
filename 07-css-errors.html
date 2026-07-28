@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Errores</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background-color: #f5f5f5;
+        }
+
+        h1 {
+            text-align: center;
+            color: steelblue;
+        }
+
+        .correcto {
+            color: green;
+            background-color: #d4edda;
+            padding: 10px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+
+        .codigo {
+            background-color: #eeeeee;
+            padding: 15px;
+            border-left: 5px solid steelblue;
+            font-family: Consolas, monospace;
+            white-space: pre-wrap;
+            margin-bottom: 20px;
+        }
+
+        /*
+        Ejemplos de errores (comentados para no afectar la página)
+
+        1. Falta de punto y coma
+        .bad {
+            color: red
+            background-color: yellow;
+        }
+
+        2. Propiedad inválida
+        .bad {
+            colr: blue;
+        }
+
+        3. Valor inválido
+        .bad {
+            width: -100px;
+        }
+
+        4. Llave sin cerrar
+        .bad {
+            padding: 20px;
+            margin: 10px;
+
+        5. Dos puntos extra
+        .bad {
+            color:: blue;
+        }
+        */
+    </style>
+
+</head>
+<body>
+
+    <h1>Errores comunes en CSS</h1>
+
+    <div class="correcto">
+        Este bloque utiliza una regla CSS correctamente escrita.
+    </div>
+
+    <div class="codigo">
+Falta de punto y coma:
+color: red
+
+Propiedad inválida:
+colr: blue;
+
+Valor inválido:
+width: -100px;
+
+Llave sin cerrar:
+.bad {
+
+Dos puntos extra:
+color:: blue;
+    </div>
+
+    <p>
+        Utilizar un editor con resaltado de sintaxis y revisar el código
+        frecuentemente ayuda a evitar estos errores.
+    </p>
+
+</body>
+</html>
