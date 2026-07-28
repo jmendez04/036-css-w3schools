@@ -1,0 +1,108 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue;
+}
+
+h2 {
+    margin-top: 35px;
+    color: #444;
+}
+
+.caja,
+.borde {
+    padding: 15px;
+    margin: 10px 0;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+/* Colores por nombre */
+
+.tomato {
+    background-color: Tomato;
+}
+
+.orange {
+    background-color: Orange;
+}
+
+.dodgerblue {
+    background-color: DodgerBlue;
+}
+
+.mediumseagreen {
+    background-color: MediumSeaGreen;
+}
+
+/* Color del texto */
+
+.texto1 {
+    color: Tomato;
+}
+
+.texto2 {
+    color: DodgerBlue;
+}
+
+.texto3 {
+    color: MediumSeaGreen;
+}
+
+/* Bordes */
+
+.tomato-border {
+    border: 3px solid Tomato;
+    color: Tomato;
+    background-color: white;
+}
+
+.blue-border {
+    border: 3px solid DodgerBlue;
+    color: DodgerBlue;
+    background-color: white;
+}
+
+.violet-border {
+    border: 3px solid Violet;
+    color: Violet;
+    background-color: white;
+}
+
+/* RGB */
+
+.rgb {
+    background-color: rgb(255, 99, 71);
+}
+
+/* RGBA */
+
+.rgba {
+    background-color: rgba(255, 99, 71, 0.5);
+    color: black;
+}
+
+/* HEX */
+
+.hex {
+    background-color: #ff6347;
+}
+
+/* HSL */
+
+.hsl {
+    background-color: hsl(9, 100%, 64%);
+}
+
+/* HSLA */
+
+.hsla {
+    background-color: hsla(9, 100%, 64%, 0.5);
+    color: black;
+}
