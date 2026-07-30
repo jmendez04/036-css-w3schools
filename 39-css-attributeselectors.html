@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Selectores por atributo</title>
+    <link rel="stylesheet" href="39-css-attributeselectors.css">
+</head>
+<body>
+
+<h1>CSS Attribute Selectors</h1>
+
+<h2>Selector [target]</h2>
+<a href="#" target="_blank">Abrir en nueva pestaña</a><br>
+<a href="#">Enlace normal</a>
+
+<h2>Selector [type="text"]</h2>
+<input type="text" placeholder="Nombre">
+<input type="password" placeholder="Contraseña">
+
+<h2>Selector [class^="top"]</h2>
+<p class="top-title">Empieza con "top"</p>
+<p class="title">No coincide</p>
+
+<h2>Selector [class$="test"]</h2>
+<p class="mytest">Termina en "test"</p>
+<p class="example">No coincide</p>
+
+<h2>Selector [class*="box"]</h2>
+<div class="bluebox">Contiene "box"</div>
+<div class="panel">No coincide</div>
+
+</body>
+</html>

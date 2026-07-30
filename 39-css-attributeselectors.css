@@ -1,0 +1,36 @@
+body{
+    font-family:Arial,sans-serif;
+    background:#eef4fa;
+    margin:40px;
+}
+
+h1{
+    text-align:center;
+    color:#0f4c81;
+}
+
+a[target]{
+    background:#ffe082;
+    padding:5px;
+}
+
+input[type="text"]{
+    background:#dff6ff;
+    padding:8px;
+    margin:10px 0;
+}
+
+[class^="top"]{
+    color:#0f4c81;
+    font-weight:bold;
+}
+
+[class$="test"]{
+    background:#ffd54f;
+    padding:6px;
+}
+
+[class*="box"]{
+    border:2px solid #04AA6D;
+    padding:10px;
+}
