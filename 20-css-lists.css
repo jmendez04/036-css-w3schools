@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    background:linear-gradient(135deg,#eef2f3,#d9e4f5);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.contenedor{
+    width:85%;
+    max-width:900px;
+    margin:40px auto;
+}
+
+h1{
+    text-align:center;
+    color:#04AA6D;
+    margin-bottom:10px;
+}
+
+.descripcion{
+    text-align:center;
+    color:#555;
+    margin-bottom:35px;
+}
+
+.card{
+    background:white;
+    border-radius:12px;
+    padding:25px;
+    margin-bottom:25px;
+    box-shadow:0 8px 20px rgba(0,0,0,.12);
+}
+
+.card h2{
+    color:#333;
+    border-left:6px solid #04AA6D;
+    padding-left:10px;
+}
+
+/* Lista con cuadrados */
+
+.lista1{
+    list-style-type:square;
+    list-style-position:inside;
+    background:#e9f9f3;
+    padding:20px;
+    border-radius:8px;
+}
+
+.lista1 li{
+    padding:8px;
+    color:#333;
+}
+
+/* Lista ordenada */
+
+.lista2{
+    list-style-type:upper-roman;
+    background:#f7f7f7;
+    padding:20px 20px 20px 45px;
+    border-radius:8px;
+}
+
+.lista2 li{
+    margin:8px 0;
+    padding:8px;
+    background:#04AA6D;
+    color:white;
+    border-radius:5px;
+}
+
+/* Menú */
+
+.menu{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.menu li{
+    background:#04AA6D;
+    color:white;
+    padding:15px;
+    margin:10px 0;
+    border-radius:8px;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.menu li:hover{
+    background:#028a4e;
+    transform:translateX(10px);
+}
