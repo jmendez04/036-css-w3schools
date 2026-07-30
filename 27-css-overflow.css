@@ -1,0 +1,36 @@
+body{
+    font-family:Arial,sans-serif;
+    background:#eef3f8;
+    margin:40px;
+}
+
+h1{
+    text-align:center;
+    color:#0f4c81;
+}
+
+.caja{
+    width:320px;
+    height:120px;
+    margin:30px auto;
+    padding:15px;
+    border:3px solid #0f4c81;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+}
+
+.caja h2{
+    margin-top:0;
+    color:#0f4c81;
+}
+
+.visible{overflow:visible;}
+.hidden{overflow:hidden;}
+.scroll{overflow:scroll;}
+.auto{overflow:auto;}
+
+.xy{
+    overflow-x:scroll;
+    overflow-y:hidden;
+}
