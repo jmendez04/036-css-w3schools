@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue;
+}
+
+h2 {
+    margin-top: 35px;
+    color: #444;
+}
+
+div {
+    background-color: powderblue;
+    border: 2px solid steelblue;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* Height y Width */
+
+.box1 {
+    height: 150px;
+    width: 50%;
+}
+
+/* Width fijo */
+
+.box2 {
+    width: 400px;
+}
+
+/* Max Width */
+
+.box3 {
+    width: 100%;
+    max-width: 600px;
+}
+
+/* Min y Max Height */
+
+.box4 {
+    min-height: 100px;
+    max-height: 200px;
+}
