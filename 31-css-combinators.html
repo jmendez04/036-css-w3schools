@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Combinadores</title>
+    <link rel="stylesheet" href="31-css-combinators.css">
+</head>
+<body>
+
+<h1>CSS Combinators</h1>
+
+<section>
+    <h2>Descendant (espacio)</h2>
+    <div class="desc">
+        <p>Este párrafo está dentro del div.</p>
+        <article>
+            <p>Este también es descendiente.</p>
+        </article>
+    </div>
+</section>
+
+<section>
+    <h2>Child (>)</h2>
+    <div class="child">
+        <p>Hijo directo.</p>
+        <article>
+            <p>No es hijo directo.</p>
+        </article>
+    </div>
+</section>
+
+<section>
+    <h2>Next Sibling (+)</h2>
+    <div class="next">Caja</div>
+    <p>Este párrafo es el hermano siguiente.</p>
+    <p>Este ya no.</p>
+</section>
+
+<section>
+    <h2>Subsequent Sibling (~)</h2>
+    <div class="all">Caja</div>
+    <p>Primer hermano.</p>
+    <p>Segundo hermano.</p>
+    <p>Tercer hermano.</p>
+</section>
+
+</body>
+</html>
