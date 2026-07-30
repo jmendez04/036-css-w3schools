@@ -1,0 +1,50 @@
+body{
+    font-family:Arial,sans-serif;
+    background:#eef4fa;
+    margin:40px;
+}
+
+h1{
+    text-align:center;
+    color:#0f4c81;
+}
+
+h2{
+    color:#0f4c81;
+    margin-top:35px;
+}
+
+.galeria{
+    text-align:center;
+}
+
+.galeria img{
+    width:220px;
+    margin:10px;
+    border-radius:8px;
+}
+
+.o20{opacity:.2;}
+.o50{opacity:.5;}
+.o100{opacity:1;}
+
+.hover{
+    opacity:.5;
+}
+
+.hover:hover{
+    opacity:1;
+}
+
+.fondo{
+    background:url("https://picsum.photos/id/1050/900/300") center/cover;
+    padding:50px;
+    border-radius:10px;
+}
+
+.transparente{
+    background:rgba(255,255,255,.6);
+    padding:20px;
+    border-radius:8px;
+    font-weight:bold;
+}
