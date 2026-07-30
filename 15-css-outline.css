@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 40px;
+}
+
+h1 {
+    text-align: center;
+    color: steelblue;
+}
+
+h2 {
+    margin-top: 35px;
+    color: #444;
+}
+
+p {
+    padding: 12px;
+    margin: 20px 0;
+    border: 1px solid black;
+}
+
+/* Outline Style */
+
+.dotted {
+    outline-style: dotted;
+}
+
+.dashed {
+    outline-style: dashed;
+}
+
+.solid {
+    outline-style: solid;
+}
+
+/* Outline Width */
+
+.width {
+    outline-style: solid;
+    outline-width: 5px;
+    outline-color: green;
+}
+
+/* Outline Color */
+
+.color {
+    outline-style: solid;
+    outline-color: red;
+}
+
+/* Shorthand */
+
+.short {
+    outline: 4px solid blue;
+}
+
+/* Rounded */
+
+.round {
+    outline: 3px dashed purple;
+    border-radius: 8px;
+}
+
+/* Outline Offset */
+
+.offset {
+    outline: 3px solid orange;
+    outline-offset: 8px;
+}
